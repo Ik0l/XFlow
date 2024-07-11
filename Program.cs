@@ -21,7 +21,7 @@ namespace Cleanup
                 ClearNonTarget(ref _lockedTarget);
 
                 _isTargetSet = false;
-				// Sets _activeTarget field
+		// Sets _activeTarget field
                 TrySetActiveTargetFromQuantum(frame);
 
                 // If target exists and can be targeted, it should stay within Target Change Time since last target change
